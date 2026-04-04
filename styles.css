@@ -1,0 +1,74 @@
+/* CSS Reset, partially from Josh W Comeau */
+/* ======================================= */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+*:not(dialog) {
+  margin: 0;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* ======================================= */
+
+/* Is this height and width specification
+necessary? Or are they already set by default
+to be 100%?  */
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+#layout-container {
+  height: 100%;
+  display: flex;
+}
+
+#sidebar {
+  width: 150px;
+  flex: 1 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  /* Sets the background of the sidebar, scaling the
+  image to cover the sidebar, while preserving its ratio,
+  at the smallest possible size. */
+  background-image: url(images/halie-west-unsplash.jpg);
+  background-size: cover;
+  color: white;
+}
+
+#sidebar > #odin-heading {
+  margin-top: 30px;
+  padding: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  /* Make the black background 60% transparent. */
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#sidebar > #odin-heading > img {
+  width: 75px;
+  height: 100px;
+}
+
+#sidebar > p {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+#main-section {
+  flex: 3 1 auto;
+}
