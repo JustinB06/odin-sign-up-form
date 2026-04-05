@@ -35,8 +35,8 @@ body {
 /* ======================================= */
 
 #sidebar {
-  width: 150px;
-  flex: 1 1 auto;
+  width: 200px;
+  flex: 1 6 auto;
 
   display: flex;
   flex-direction: column;
@@ -79,7 +79,31 @@ body {
 /* Main section start */
 /* ======================================= */
 #main-section {
-  flex: 3 3 auto;
+  padding: 100px 30px;
+  width: 200px;
+  flex: 6 1 auto;
+}
+
+#main-section > form > #form-field-section {
+  margin: 40px 0px;
+}
+
+#main-section > form > #form-field-section > .form-row {
+  display: flex;
+  gap: 80px;
+  margin-top: 12px;
+}
+
+#main-section > form > #form-field-section > .form-row .field-label-pair {
+  display: flex;
+  flex-direction: column;
+}
+
+#main-section > p {
+  margin-top: 20px;
+}
+#main-section > p > span#log-in {
+  color: #596d48;
 }
 
 /* ======================================= */

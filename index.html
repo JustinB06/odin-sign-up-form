@@ -21,11 +21,10 @@
       </div>
 
       <div id="main-section">
-        <div class="main-heading">
+        <div id="main-heading">
           <h3>
-            This is not a real online service! You know you need something
-            <br />
-            like this in your life to help you realize your deepest dreams.
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams.
           </h3>
 
           <h3>Sign up <em>now</em> to get started.</h3>
@@ -35,51 +34,53 @@
           <h3>You <em>know</em> you want to.</h3>
         </div>
 
-        <div id="form-section">
-          <form action="">
-            <div id="form-field-section">
-              <h3>Let's do this!</h3>
+        <form action="">
+          <div id="form-field-section">
+            <h3>Let's do this!</h3>
 
-              <div id="form-row-1">
-                <div id="user-first-name">
-                  <label for="fname">FIRST NAME</label>
-                  <input type="text" name="fname" id="fname" />
-                </div>
-
-                <div id="user-last-name">
-                  <label for="lname">LAST NAME</label>
-                  <input type="text" name="lname" id="lname" />
-                </div>
+            <div id="form-row-1" class="form-row">
+              <div id="user-first-name" class="field-label-pair">
+                <label for="fname">FIRST NAME</label>
+                <input type="text" name="fname" id="fname" />
               </div>
 
-              <div id="form-row-2">
-                <div id="user-email">
-                  <label for="email">EMAIL</label>
-                  <input type="email" name="email" id="email" />
-                </div>
-
-                <div id="user-phone-number">
-                  <label for="phone-number">PHONE NUMBER</label>
-                  <input type="tel" name="phone-number" id="phone-number" />
-                </div>
-              </div>
-
-              <div id="form-row-3">
-                <div id="user-password">
-                  <label for="password">PASSWORD</label>
-                  <input type="password" name="password" id="password" />
-                </div>
-
-                <div id="user-password-confirm">
-                  <label for="password">CONFIRM PASSWORD</label>
-                  <input type="password" name="password" id="password" />
-                </div>
+              <div id="user-last-name" class="field-label-pair">
+                <label for="lname">LAST NAME</label>
+                <input type="text" name="lname" id="lname" />
               </div>
             </div>
 
-            <button type="submit">Create Account</button>
-          </form>
-        </div>
+            <div id="form-row-2" class="form-row">
+              <div id="user-email" class="field-label-pair">
+                <label for="email">EMAIL</label>
+                <input type="email" name="email" id="email" />
+              </div>
+
+              <div id="user-phone-number" class="field-label-pair">
+                <label for="phone-number">PHONE NUMBER</label>
+                <input type="tel" name="phone-number" id="phone-number" />
+              </div>
+            </div>
+
+            <div id="form-row-3" class="form-row">
+              <div id="user-password" class="field-label-pair">
+                <label for="password">PASSWORD</label>
+                <input type="password" name="password" id="password" />
+              </div>
+
+              <div id="user-confirm-password" class="field-label-pair">
+                <label for="confirm-password">CONFIRM PASSWORD</label>
+                <input
+                  type="password"
+                  name="confirm-password"
+                  id="confirm-password"
+                />
+              </div>
+            </div>
+          </div>
+
+          <button type="submit">Create Account</button>
+        </form>
 
         <p>Already have an account? <span id="log-in">Log in</span></p>
       </div>
