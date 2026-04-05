@@ -1,13 +1,16 @@
-/* CSS Reset, partially from Josh W Comeau */
+/* CSS Reset start, source: Josh W Comeau https://www.joshwcomeau.com/css/custom-css-reset/*/
 /* ======================================= */
+/* Set box sizing to always be "border-box" */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
+/* Remove default margin */
 *:not(dialog) {
   margin: 0;
 }
+/* Set form controls to inherit fonts */
 input,
 button,
 textarea,
@@ -16,10 +19,8 @@ select {
 }
 
 /* ======================================= */
+/* CSS Reset end */
 
-/* Is this height and width specification
-necessary? Or are they already set by default
-to be 100%?  */
 body {
   height: 100vh;
   width: 100vw;
@@ -30,9 +31,12 @@ body {
   display: flex;
 }
 
+/* Sidebar start */
+/* ======================================= */
+
 #sidebar {
   width: 150px;
-  flex: 1 0 auto;
+  flex: 1 1 auto;
 
   display: flex;
   flex-direction: column;
@@ -60,8 +64,8 @@ body {
 }
 
 #sidebar > #odin-heading > img {
-  width: 75px;
-  height: 100px;
+  width: 60px;
+  height: 85px;
 }
 
 #sidebar > p {
@@ -69,6 +73,14 @@ body {
   text-align: center;
 }
 
+/* ======================================= */
+/* Sidebar end */
+
+/* Main section start */
+/* ======================================= */
 #main-section {
-  flex: 3 1 auto;
+  flex: 3 3 auto;
 }
+
+/* ======================================= */
+/* Main section end */
