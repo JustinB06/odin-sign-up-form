@@ -79,28 +79,51 @@ body {
 /* Main section start */
 /* ======================================= */
 #main-section {
-  padding: 100px 30px;
+  /* padding: 100px 30px; */
   width: 200px;
   flex: 6 1 auto;
+
+  background-color: rgb(238, 238, 238);
+}
+
+#main-section > #main-heading {
+  padding: 100px 30px 0px 30px;
 }
 
 #main-section > form > #form-field-section {
   margin: 40px 0px;
+  padding: 20px 30px;
+
+  background-color: white;
+
+  /* The form field section will become scrollable
+  when the form controls overflow. */
+  overflow: auto;
 }
 
 #main-section > form > #form-field-section > .form-row {
   display: flex;
-  gap: 80px;
+  /* flex: auto; */
+  justify-content: flex-start;
+
+  gap: 60px;
   margin-top: 12px;
 }
 
 #main-section > form > #form-field-section > .form-row .field-label-pair {
+  /* This will have the form labels appear above their 
+  respective form control. */
   display: flex;
   flex-direction: column;
+  flex: 0 1 auto;
+}
+
+#main-section > form > button {
+  margin: 0px 30px;
 }
 
 #main-section > p {
-  margin-top: 20px;
+  margin: 20px 30px;
 }
 #main-section > p > span#log-in {
   color: #596d48;
