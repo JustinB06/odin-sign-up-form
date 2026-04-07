@@ -1,0 +1,35 @@
+Structural:
+- Sidebar needs to be wider in general.
+X - Check if its possible for form controls:
+    X - To be wider?
+    X - To grow and shrink with flexbox.
+    A - It is possible for both. 
+        - The width of the field can be set with 
+        CSS "width". 
+        - It can grow and shrink with flexbox as
+        normal. You just have to note that it won't
+        shrink past its built in "min-width", so 
+        you'll have to specify something like
+        "min-width:0;".
+
+================================================
+
+Interactivity:
+- When a form control is in focus, make the border
+blue.
+
+================================================
+
+Styling:
+- All fonts need to be changed to the custom font.
+- Form controls need to have a grey background.
+- Button needs to be styled.
+    - Change background color to green.
+    - Change font color to white.
+    - Make the corners rounder.
+- Add a bottom box shadow to the form field 
+section.
+- Add a bottom box shadow to the button.
+- For the sidebar artist credit:
+    - Make the text smaller.
+    - Underline the artist name and website.

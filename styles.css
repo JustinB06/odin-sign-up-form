@@ -95,10 +95,6 @@ body {
   padding: 20px 30px;
 
   background-color: white;
-
-  /* The form field section will become scrollable
-  when the form controls overflow. */
-  overflow: auto;
 }
 
 #main-section > form > #form-field-section > .form-row {
@@ -116,6 +112,8 @@ body {
   display: flex;
   flex-direction: column;
   flex: 0 1 auto;
+  width: 280px;
+  min-width: 0;
 }
 
 #main-section > form > button {
