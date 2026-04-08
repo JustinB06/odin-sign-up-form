@@ -18,6 +18,7 @@ Interactivity:
 - When a form control is in focus, make the border
 blue.
 - Add/set up validation for form controls.
+    - Set up phone number validation.
 
 ================================================
 
