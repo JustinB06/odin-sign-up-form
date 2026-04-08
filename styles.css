@@ -36,7 +36,8 @@ body {
 
 #sidebar {
   width: 200px;
-  flex: 1 6 auto;
+  height: 100vh;
+  flex: 1 4 auto;
 
   display: flex;
   flex-direction: column;
@@ -81,7 +82,8 @@ body {
 #main-section {
   /* padding: 100px 30px; */
   width: 200px;
-  flex: 6 1 auto;
+  flex: 4 1 auto;
+  overflow: auto;
 
   background-color: rgb(238, 238, 238);
 }

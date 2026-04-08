@@ -1,5 +1,5 @@
 Structural:
-- Sidebar needs to be wider in general.
+X - Sidebar needs to be wider in general.
 X - Check if its possible for form controls:
     X - To be wider?
     X - To grow and shrink with flexbox.
@@ -17,6 +17,7 @@ X - Check if its possible for form controls:
 Interactivity:
 - When a form control is in focus, make the border
 blue.
+- Add/set up validation for form controls.
 
 ================================================
 
@@ -33,3 +34,12 @@ section.
 - For the sidebar artist credit:
     - Make the text smaller.
     - Underline the artist name and website.
+X - When the page height expands/shrinks to a 
+certain extent, the sidebar background image
+becomes smaller than the rest of the page.
+It should always be as tall as the page.
+    A - The "main-section" of the page (the
+    non-sidebar content) was actually 
+    overflowing. The above behavior was
+    prevented by setting "overflow:auto" on
+    the "main-section".
