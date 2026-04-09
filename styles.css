@@ -1,3 +1,31 @@
+/* Font Setup Start */
+/* ======================================= */
+/* I believe that "font-weight: bold; must be
+specified on elements that will use the Norse-bold.
+It may not be automatically done by writing 
+font-family: "Norse";.*/
+@font-face {
+  font-family: "Norse";
+  src:
+    url("fonts/Norse.woff2") format("woff2"),
+    url("fonts/Norse.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Norse";
+  src:
+    url("fonts/Norse-Bold.woff2") format("woff2"),
+    url("fonts/Norse-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+/* ======================================= */
+/* Font Setup end */
+
 /* CSS Reset start, source: Josh W Comeau https://www.joshwcomeau.com/css/custom-css-reset/*/
 /* ======================================= */
 /* Set box sizing to always be "border-box" */
@@ -17,13 +45,20 @@ textarea,
 select {
   font: inherit;
 }
-
 /* ======================================= */
 /* CSS Reset end */
 
 body {
   height: 100vh;
   width: 100vw;
+
+  font-family: sans-serif;
+}
+
+h1 {
+  font-family: "Norse", sans-serif;
+  font-weight: bold;
+  font-size: 60px;
 }
 
 #layout-container {
@@ -58,14 +93,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 6px;
 
   /* Make the black background 60% transparent. */
   background-color: rgba(0, 0, 0, 0.4);
 }
 
 #sidebar > #odin-heading > img {
-  width: 60px;
+  width: 65px;
   height: 85px;
 }
 

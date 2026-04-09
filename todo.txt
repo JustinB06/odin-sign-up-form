@@ -16,9 +16,13 @@ X - Check if its possible for form controls:
 
 Interactivity:
 - When a form control is in focus, make the border
-blue.
+blue and give it a box-shadow using the :focus
+pseudo-class.
 - Add/set up validation for form controls.
-    - Set up phone number validation.
+    X - Set up phone number validation.
+    - Give the password fields a red border if
+    they can contain an invalid password (an 
+    empty field).
 
 ================================================
 
