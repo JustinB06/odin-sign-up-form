@@ -120,7 +120,7 @@ h1 {
   flex: 4 1 auto;
   overflow: auto;
 
-  background-color: rgb(247, 247, 247);
+  background-color: rgb(238, 238, 238);
 }
 
 #main-section > #main-heading {
@@ -143,7 +143,7 @@ h1 {
   margin-top: 12px;
 }
 
-#main-section > form > #form-field-section > .form-row > .field-label-pair {
+#main-section > form > #form-field-section > .form-row .field-label-pair {
   /* This will have the form labels appear above their 
   respective form control. */
   display: flex;
@@ -151,20 +151,6 @@ h1 {
   flex: 0 1 auto;
   width: 280px;
   min-width: 0;
-}
-
-input:focus {
-  border: 2px solid rgb(60, 121, 252);
-}
-
-#main-section
-  > form
-  > #form-field-section
-  > .form-row
-  > .field-label-pair
-  > input {
-  border: 2px solid rgb(228, 228, 228);
-  border-radius: 4px;
 }
 
 #main-section > form > button {
