@@ -15,7 +15,7 @@ X - Check if its possible for form controls:
 ================================================
 
 Interactivity:
-- When a form control is in focus, make the border
+X - When a form control is in focus, make the border
 blue and give it a box-shadow using the :focus
 pseudo-class.
 - Add/set up validation for form controls.

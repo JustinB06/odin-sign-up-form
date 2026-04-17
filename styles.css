@@ -153,6 +153,22 @@ h1 {
   min-width: 0;
 }
 
+input:focus {
+  /* The "border" that appears when an input is
+  focused is actually an outline. 
+  
+  The outline needs to be set to none so that the
+  outline and border do not appear at the same 
+  time. */
+  border: 2px solid rgb(32, 106, 245);
+  outline: none;
+}
+
+input {
+  border: 2px solid rgb(220, 220, 220);
+  border-radius: 4px;
+}
+
 #main-section > form > button {
   margin: 0px 30px;
 }
