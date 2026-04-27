@@ -55,12 +55,6 @@ body {
   font-family: sans-serif;
 }
 
-h1 {
-  font-family: "Norse", sans-serif;
-  font-weight: bold;
-  font-size: 60px;
-}
-
 body {
   height: 100%;
   display: flex;
@@ -86,7 +80,7 @@ body {
   color: white;
 }
 
-#sidebar > #odin-heading {
+#sidebar-heading {
   margin-top: 30px;
   padding: 10px;
 
@@ -99,12 +93,18 @@ body {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-#sidebar > #odin-heading > img {
+#sidebar-image {
   width: 65px;
   height: 85px;
 }
 
-#sidebar > p {
+#sidebar-heading-text {
+  font-family: "Norse", sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+#sidebar-image-source-text {
   margin-bottom: 15px;
   text-align: center;
 }
