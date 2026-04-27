@@ -61,7 +61,7 @@ h1 {
   font-size: 60px;
 }
 
-#layout-container {
+body {
   height: 100%;
   display: flex;
 }
