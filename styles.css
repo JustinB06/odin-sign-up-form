@@ -26,6 +26,15 @@ font-family: "Norse";.*/
 /* ======================================= */
 /* Font Setup end */
 
+/* CSS Variables start */
+/* ======================================= */
+:root {
+  --label-font-size: 14px;
+}
+
+/* CSS Variables end */
+/* ======================================= */
+
 /* CSS Reset start, source: Josh W Comeau https://www.joshwcomeau.com/css/custom-css-reset/*/
 /* ======================================= */
 /* Set box sizing to always be "border-box" */
@@ -128,6 +137,8 @@ body {
 /* ======================================= */
 /* main-content-header end */
 
+/* form section start */
+/* ======================================= */
 form {
   margin: 40px 0px;
   padding: 20px 30px;
@@ -144,7 +155,7 @@ form {
   margin-top: 12px;
 }
 
-.form-row .field-label-pair {
+.form-row-field-label-pair {
   /* This will have the form labels appear above their 
   respective form control. */
   display: flex;
@@ -170,14 +181,17 @@ input {
   border-radius: 4px;
 }
 
-#main-content > form > button {
-  margin: 0px 30px;
+#form-submit-button {
+  margin-top: 20px;
 }
+/* ======================================= */
+/* form section end */
 
-#main-content > p {
+#log-in-text {
   margin: 20px 30px;
 }
-#main-content > p > span#log-in {
+
+#log-in-text-link {
   color: #596d48;
 }
 
