@@ -57,7 +57,7 @@ body {
   font-family: sans-serif;
 }
 
-/* Sidebar start */
+/* sidebar start */
 /* ======================================= */
 
 #sidebar {
@@ -107,9 +107,9 @@ body {
 }
 
 /* ======================================= */
-/* Sidebar end */
+/* sidebar end */
 
-/* Main content start */
+/* main-content start */
 /* ======================================= */
 #main-content {
   /* padding: 100px 30px; */
@@ -120,18 +120,22 @@ body {
   background-color: rgb(238, 238, 238);
 }
 
+/* main-content-header start */
+/* ======================================= */
 #main-content-header {
   padding: 100px 30px 0px 30px;
 }
+/* ======================================= */
+/* main-content-header end */
 
-#main-content > form > #form-field-section {
+form {
   margin: 40px 0px;
   padding: 20px 30px;
 
   background-color: white;
 }
 
-#main-content > form > #form-field-section > .form-row {
+.form-row {
   display: flex;
   /* flex: auto; */
   justify-content: flex-start;
@@ -140,7 +144,7 @@ body {
   margin-top: 12px;
 }
 
-#main-content > form > #form-field-section > .form-row .field-label-pair {
+.form-row .field-label-pair {
   /* This will have the form labels appear above their 
   respective form control. */
   display: flex;
@@ -178,4 +182,4 @@ input {
 }
 
 /* ======================================= */
-/* Main content end */
+/* main-content end */
