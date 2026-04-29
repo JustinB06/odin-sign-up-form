@@ -29,7 +29,12 @@ font-family: "Norse";.*/
 /* CSS Variables start */
 /* ======================================= */
 :root {
-  --label-font-size: 14px;
+  --sidebar-header-text-font-size: 60px;
+  --sidebar-image-source-text-font-size: 14px;
+  --main-content-header-font-size: 19px;
+  --form-label-font-size: 13px;
+  --form-header-text-font-size: 19px;
+  --log-in-text-font-size: 16px;
 }
 
 /* CSS Variables end */
@@ -86,7 +91,7 @@ body {
   color: white;
 }
 
-#sidebar-heading {
+#sidebar-header {
   margin-top: 30px;
   padding: 10px;
 
@@ -104,15 +109,16 @@ body {
   height: 85px;
 }
 
-#sidebar-heading-text {
+#sidebar-header-text {
   font-family: "Norse", sans-serif;
   font-weight: bold;
-  font-size: 60px;
+  font-size: var(--sidebar-header-text-font-size);
 }
 
 #sidebar-image-source-text {
   margin-bottom: 15px;
   text-align: center;
+  font-size: var(--sidebar-image-source-text-font-size);
 }
 
 /* ======================================= */
@@ -133,6 +139,12 @@ body {
 /* ======================================= */
 #main-content-header {
   padding: 100px 30px 0px 30px;
+
+  /* font-size: var(--main-content-header-font-size); */
+}
+
+#main-content-header > h2 {
+  font-size: var(--main-content-header-font-size);
 }
 /* ======================================= */
 /* main-content-header end */
@@ -144,6 +156,10 @@ form {
   padding: 20px 30px;
 
   background-color: white;
+}
+
+#form-header-text {
+  font-size: var(--form-header-text-font-size);
 }
 
 .form-row {
@@ -163,6 +179,8 @@ form {
   flex: 0 1 auto;
   width: 280px;
   min-width: 0;
+
+  font-size: var(--form-label-font-size);
 }
 
 input:focus {
@@ -189,6 +207,7 @@ input {
 
 #log-in-text {
   margin: 20px 30px;
+  font-size: var(--log-in-text-font-size);
 }
 
 #log-in-text-link {
